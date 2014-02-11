@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>STX Next blog</title><link href="stxnext.github.io/" rel="alternate"></link><link href="stxnext.github.io/feeds/all.atom.xml" rel="self"></link><id>stxnext.github.io/</id><updated>2014-02-11T12:00:00+01:00</updated><entry><title>Hello, world!</title><link href="stxnext.github.io/posts/2014/02/hello-world/" rel="alternate"></link><updated>2014-02-11T12:00:00+01:00</updated><author><name>Wojciech Lichota</name></author><id>tag:stxnext.github.io,2014-02-11:posts/2014/02/hello-world/</id><summary type="html">&lt;p&gt;Oczywiście na początek wypadało by się przedstawić, a więc ... STX Next jest
+softwarehousem dostarczającym najwyższej jakości oprogramowanie 
+napisane w języku Python oraz JavaScript. Receptą naszego sukcesu jest praca 
+ekspertów w oparciu o sprawdzone metodyki zarządzania oraz przy użyciu
+nowoczesnych technologii. Ta doskonała kombinacja przez wiele lat pozwoliła nam 
+dostarczyć dziesiątki zakończonych sukcesem wdrożeń dla klientów z całego świata.&lt;/p&gt;
+&lt;p&gt;Na naszym blogu firmowym pojawiać się będą artykuły dzięki którym pracownicy
+mogą poszerzyć swoją wiedzę z zakresu programowania jak i zarządzania pracą. 
+Artykuły te będą pisane zarówno przez naszych pracowników jak i zewnętrznych
+specjalialistów. Opisywane są tu frameworki, biblioteki, narzędzia, techniki 
+i inne zagadnienia przydatne podczas rozwijania aplikacji tworzonych w STX Next.&lt;/p&gt;
+&lt;p&gt;Do budowy bloga użyliśmy &lt;a href="http://blog.getpelican.com/"&gt;Pelican&lt;/a&gt; narzędzia
+napisanego oczywiście w Pythonie pozwalającego wygenerować statyczną wersję
+bloga. Dzięki &lt;a href="http://disqus.com/"&gt;Disqus&lt;/a&gt; możliwe jest komentowanie artykułów.
+Wszystko natomiast hostowane jest na &lt;a href="http://pages.github.com/"&gt;GitHub Pages&lt;/a&gt;.
+Dlaczego wybraliśmy akurat te narzędzie, opiszemy w jednym z kolejnych
+postów.&lt;/p&gt;</summary><category term="blog"></category><category term="pelican"></category><category term="disqus"></category><category term="github"></category></entry></feed>

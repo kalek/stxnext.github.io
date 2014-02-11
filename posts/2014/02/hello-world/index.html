@@ -9,6 +9,7 @@
 			<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 			<meta charset="utf-8" />
 			<link href="stxnext.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="STX Next blog Full Atom Feed" />
+			<link href="stxnext.github.io/feeds/ogolne.atom.xml" type="application/atom+xml" rel="alternate" title="STX Next blog Categories Atom Feed" />
 			<link href="http://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet" />
 			<link href="http://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" />
 			<link rel="stylesheet" href="/theme/css/pygment.css" />
@@ -30,10 +31,10 @@
 									
 									<!-- Logo -->
 									<div id="logo-container">
-										<a href=".">
+										<a href="../../../..">
 											<img src="/theme/images/stxnext-logo.png" title="STX Next blog"/>
 										</a>
-										<h1><a href=".">BLOG</a></h1>
+										<h1><a href="../../../..">BLOG</a></h1>
 									</div>
 									
 									<!-- Nav -->
@@ -53,25 +54,41 @@
 			<div id="main-wrapper">
 				<div class="container">
 <div class="row">
-<div class="12u">
-    <section>
-        <div class="row">
-            <div class="4u">
-                <section class="box">
-                    <a href="./posts/2014/02/hello-world/" class="image image-full"><img src="" alt=""/></a>
-                    <header>
-                        <h3>Hello, world!</h3>
-                        <span class="byline">2014-02-11 12:00:00</span>
-                    </header>
-                    <p>Startujem z blogiem STX Next!</p>
-                    <footer class="actions">
-                        <a href="./posts/2014/02/hello-world/" class="button button-icon button-icon-1">Czytaj dalej</a>
-                    </footer>
-                </section>
-            </div>
-        </div>
-    </section><!-- /#content -->
-</div>
+	<div class="12u">
+		<!-- Portfolio -->
+			<section>
+				<div>
+					<div class="row">
+						<div class="12u skel-cell-mainContent">
+							<!-- Content -->
+								<article class="box is-post">
+									<h2>Hello, world!</h2>
+									<a href="#" class="image image-full"><img src=""/></a>
+									<p>Oczywiście na początek wypadało by się przedstawić, a więc ... STX Next jest
+softwarehousem dostarczającym najwyższej jakości oprogramowanie 
+napisane w języku Python oraz JavaScript. Receptą naszego sukcesu jest praca 
+ekspertów w oparciu o sprawdzone metodyki zarządzania oraz przy użyciu
+nowoczesnych technologii. Ta doskonała kombinacja przez wiele lat pozwoliła nam 
+dostarczyć dziesiątki zakończonych sukcesem wdrożeń dla klientów z całego świata.</p>
+<p>Na naszym blogu firmowym pojawiać się będą artykuły dzięki którym pracownicy
+mogą poszerzyć swoją wiedzę z zakresu programowania jak i zarządzania pracą. 
+Artykuły te będą pisane zarówno przez naszych pracowników jak i zewnętrznych
+specjalialistów. Opisywane są tu frameworki, biblioteki, narzędzia, techniki 
+i inne zagadnienia przydatne podczas rozwijania aplikacji tworzonych w STX Next.</p>
+<p>Do budowy bloga użyliśmy <a href="http://blog.getpelican.com/">Pelican</a> narzędzia
+napisanego oczywiście w Pythonie pozwalającego wygenerować statyczną wersję
+bloga. Dzięki <a href="http://disqus.com/">Disqus</a> możliwe jest komentowanie artykułów.
+Wszystko natomiast hostowane jest na <a href="http://pages.github.com/">GitHub Pages</a>.
+Dlaczego wybraliśmy akurat te narzędzie, opiszemy w jednym z kolejnych
+postów.</p>
+								</article>
+								<div id="disqus_thread"></div>
+								<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+						</div>
+					</div>
+				</div>
+			</section>
+	</div>
 </div>
 				</div>
 			</div>
@@ -101,7 +118,7 @@
 										<h2>Kategorie</h2>
 									</header>
 									<ul class="divided" id="categories">
-											<li><a href="./category/ogolne.html">Ogólne</a></li>
+											<li><a href="../../../../category/ogolne.html">Ogólne</a></li>
 									</ul>
 								</section>
 							</div>
@@ -141,5 +158,15 @@
 		<script src="/theme/js/skel-panels.min.js"></script>
 		<script src="/theme/js/plusone.js"></script>
 		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><link rel="stylesheet" href="/theme/css/ie8.css" /><![endif]-->
+    <script type="text/javascript">
+        var disqus_shortname = 'stxnextblog';
+
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 	</body>
 </html>
